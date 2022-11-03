@@ -2,7 +2,7 @@ from datetime import datetime
 from pydantic import BaseModel
 
 class ModelForm(BaseModel):
-    tipo_solo: str
+    cor: str
     umidade: str
     regiao: str
     tipo_areia: str
