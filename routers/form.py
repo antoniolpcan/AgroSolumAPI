@@ -6,6 +6,8 @@ from models.request import ModelForm
 def post_form(form: ModelForm):
     # https://www.embrapa.br/solos/sibcs/classificacao-de-solos/ordens/cambissolos
 
+    # Latossolos, Argissolos, Neossolos, Nitossolos, Cambissolos, Plintossolos, Gleissolos, Espodossolos, Vertissolos, Planossolos, Luvissolos, Organossolos e Chernossolos,
+
     """
     1 – Cambissolos
         - Formado por material mineral. Presença de argila e, em alguns casos, elementos da decomposição de riodacitos (rocha de origem vulcânica). Possui textura média ou mais fina.
