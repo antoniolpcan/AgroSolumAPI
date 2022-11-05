@@ -1,15 +1,20 @@
 [
     {
-        "nome_solo": "Latossolos"
-        # - Composto, principalmente, por material mineral. Presença de sedimentos argilosos na parta superior. 
-        # São homogêneos, apresentando baixa diferenciação entre horizontes e camadas. Sua textura é argilosa. 
-        # As cores mais comuns são: vermelho e vermelho-amarelo.
+        "nome_solo": "Latossolos",
+        "cor": ["marrom", "vermelho", "vermelho-amarelo", "amarelo"],
+        "textura": ["argilosa"],
+        "intemperizado": True,
+        "regiao": {"predominancia":"Brasil", "area": 0.24},
+        "producao": ["soja", "milho", "arroz"],
+        "imagem": 0
     },
     {
-        "nome_solo": "Argissolos"
-        # - Formado, principalmente, por material de origem mineral. Apresenta acentuada diferenciação entre as camadas ou horizontes. 
-        # Podem ser argilosos ou arenosos. 
-        # Apresentam coloração avermelhada, amarelada ou brunada.
+        "nome_solo": "Argissolos",
+        "cor": ["marrom-claro", "vermelho", "amarelo"],
+        "textura": ["argilosa", "arenosa"], # Argiloso Não esfarela e Arenoso esfarela
+        "intemperizado": True,
+        "regiao": {"predominancia":"Nordeste", "area": 0.14},
+        "imagem": 1
     },
     {
         "nome_solo": "Neossolos"
