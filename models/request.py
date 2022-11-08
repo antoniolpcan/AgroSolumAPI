@@ -6,5 +6,6 @@ class ModelForm(BaseModel):
     cor: str
     textura: str
     intemperizado: str
+    umidade: str
     regiao: str
     imagem: str
