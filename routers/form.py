@@ -24,6 +24,6 @@ def post_form(form: ModelForm):
             if form.regiao == json_solos['regiao']['predominancia']:
                 resultados.append(solo['nome_solo'])
         if len(resultados > 1):
-            if solo['regiao']
-
+            #if solo['regiao']
+            pass
     return form
