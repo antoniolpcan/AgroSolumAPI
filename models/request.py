@@ -5,7 +5,6 @@ from typing import List
 class ModelForm(BaseModel):
     cor: str
     textura: str
-    intemperizado: str
-    umidade: str
+    umidade: int
     regiao: str
     imagem: str
