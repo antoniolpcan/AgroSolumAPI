@@ -3,13 +3,11 @@
 
 ## Sobre
 
-### API para ser utilizada no Projeto Interdisciplinar do 3 Semestre de Desenvolvimento de Software Multiplataforma da Fatec Araras.
-<br>
+### API para ser utilizada no Projeto Interdisciplinar do 3 Semestre de Desenvolvimento de Software Multiplataforma da Fatec Araras
 
 ## Objetivo
 
 ### Com essa API, temos o objetivo de retornar o solo que melhor for identificado pelos parametros.
-<br>
 
 
 ## Start
@@ -17,7 +15,6 @@
 ```cmd
 uvicorn main:app
 ```
-<br>
 
 ## Requisição:
 
