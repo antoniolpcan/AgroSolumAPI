@@ -5,7 +5,7 @@ json_solos = [
         "textura": ["argilosa"],
         "umidade": 2,
         "regiao": ['Araçatuba', 'Araraquara', 'Assis', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília','Macro Metropolitana Paulista','Vale do Paraíba Paulista'],
-        "producao": {"inverno":["soja", "milho", "arroz"], "verao": [], "outono": [], "primavera": []},
+        "producao": ["café", "milho", "soja", "algodão", "cana-de-açúcar"],
         "imagem": 1
     },
     {
@@ -14,7 +14,7 @@ json_solos = [
         "textura": ["argilosa"],
         "umidade": 2,
         "regiao": ['Araçatuba', 'Araraquara', 'Assis', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília','Macro Metropolitana Paulista','Vale do Paraíba Paulista'],
-        "producao": {"inverno":["trigo", "milho", "arroz", "aveia"], "verao": [], "outono": [], "primavera": []},
+        "producao": ["trigo", "milho", "arroz", "aveia"],
         "imagem" : 2
     },
     {
@@ -23,7 +23,7 @@ json_solos = [
         "textura": ["arenosa"],
         "umidade": 2,
         "regiao":  ['Araçatuba', 'Araraquara', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília'],
-        "producao": {"inverno":["soja", "milho", "arroz"], "verao": [], "outono": [], "primavera": []},
+        "producao": ["arroz", "algodão", "abacaxi", "milho", "feijão"],
         "imagem": 3
     },
     {
@@ -32,7 +32,7 @@ json_solos = [
         "textura": ['arenosa', 'fina'],
         "umidade": 1,
         "regiao": ['Litoral Sul Paulista', 'Itapetininga', 'Vale do Paraíba Paulista', 'Macro Metropolitana Paulista', 'Metropolitana de São Paulo'],
-        "producao": {"inverno":["soja", "milho", "arroz"], "verao": [], "outono": [], "primavera": []},
+        "producao": ["arroz irrigado"],
         "imagem": 4
     },
     {
@@ -41,7 +41,7 @@ json_solos = [
         "textura": ['argilosa'],
         "umidade": 2,
         "regiao": ['Araçatuba', 'Araraquara', 'Campinas', 'São José do Rio Preto','Ribeirão Preto','Piracicaba','Presidente Prudente','Vale do Paraíba Paulista'],
-        "producao": {"inverno":["soja", "milho", "arroz"], "verao": [], "outono": [], "primavera": []},
+        "producao": ["arroz"],
         "imagem": 5
     },
     {
@@ -50,7 +50,7 @@ json_solos = [
         "textura": ['argilosa'],
         "umidade": 3,
         "regiao": ['Araçatuba', 'Araraquara', 'Assis', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília','Macro Metropolitana Paulista','Vale do Paraíba Paulista'],
-        "producao": {"inverno":["soja", "milho", "arroz"], "verao": [], "outono": [], "primavera": []},
+        "producao": ["trigo", "milho", "sorgo"],
         "imagem": 6
     },
     {
@@ -59,7 +59,7 @@ json_solos = [
         "textura": ['arenosa'],
         "umidade": 1,
         "regiao": ['Litoral Sul Paulista', 'Vale do Paraíba Paulista', 'Metropolitana de São Paulo'],
-        "producao": {"inverno":["soja", "milho", "arroz"], "verao": [], "outono": [], "primavera": []},
+        "producao": [],
         "imagem": 7
     }
 ]
