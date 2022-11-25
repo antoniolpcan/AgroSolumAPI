@@ -11,7 +11,6 @@ class AgroAPI:
         self.texture = form.texture.lower()
         self.humidity = self.verify_humidity(form.humidity)
         self.region = self.verify_city(form.city)
-        self.season = form.season.lower()
 
     def verify_humidity(self, humidity: int) -> int:
         if humidity<1:
@@ -45,7 +44,7 @@ class AgroAPI:
                 if self.color in solo['cor']:
                     if self.texture in solo['textura']:
                         if self.humidity == solo['umidade']:
-                            ground_list.append(solo['nome_solo'])
+                            ground_list.append(solo)
         
         return ground_list
 

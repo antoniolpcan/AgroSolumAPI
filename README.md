@@ -27,8 +27,7 @@ uvicorn main:app
     "color": "vermelho",
     "texture": "argilosa",
     "humidity": 2,
-    "city": "Pirassununga",
-    "season": "outono",
+    "city": "Pirassununga"
 }
 ```
 <br>
