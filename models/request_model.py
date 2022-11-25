@@ -5,4 +5,3 @@ class GroundInfo(BaseModel):
     texture: str
     humidity: int
     city: str
-    season: str
