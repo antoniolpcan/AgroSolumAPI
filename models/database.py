@@ -1,8 +1,8 @@
 json_solos = [
     {
         "nome_solo": "Latossolos",
-        "cor": ["bruno", "vermelho"],
-        "textura": ["argilosa"],
+        "cor": ["bruno", "vermelho", "normalmente avermelhado"],
+        "textura": ["argilosa", "solo argiloso"],
         "umidade": 2,
         "regiao": ['Araçatuba', 'Araraquara', 'Assis', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília','Macro Metropolitana Paulista','Vale do Paraíba Paulista'],
         "producao": ["café", "milho", "soja", "algodão", "cana-de-açúcar"],
@@ -10,8 +10,8 @@ json_solos = [
     },
     {
         "nome_solo": "Argissolos",
-        "cor": ["vermelho", "amarelo", 'vermelho-amarelo'],
-        "textura": ["argilosa"],
+        "cor": ["vermelho", "amarelo", 'vermelho-amarelo', "normalmente avermelhado"],
+        "textura": ["argilosa", "solo argiloso"],
         "umidade": 2,
         "regiao": ['Araçatuba', 'Araraquara', 'Assis', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília','Macro Metropolitana Paulista','Vale do Paraíba Paulista'],
         "producao": ["trigo", "milho", "arroz", "aveia"],
@@ -19,8 +19,8 @@ json_solos = [
     },
     {
         "nome_solo": "Neossolos",
-        "cor": ["bruno-escuro",'escuro'],
-        "textura": ["arenosa"],
+        "cor": ["bruno-escuro",'escuro', "normalmente escuro ou preto"],
+        "textura": ["arenosa", "possui areia grossa"],
         "umidade": 2,
         "regiao":  ['Araçatuba', 'Araraquara', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília'],
         "producao": ["arroz", "algodão", "abacaxi", "milho", "feijão"],
@@ -28,8 +28,8 @@ json_solos = [
     },
     {
         "nome_solo": "Cambissolos",
-        "cor": ['bruno','amarelo'],
-        "textura": ['arenosa', 'fina'],
+        "cor": ['bruno','amarelo', "normalmente amarelado", "levemente amarronzado"],
+        "textura": ['arenosa', 'fina', "possui areia fina"],
         "umidade": 1,
         "regiao": ['Litoral Sul Paulista', 'Itapetininga', 'Vale do Paraíba Paulista', 'Macro Metropolitana Paulista', 'Metropolitana de São Paulo'],
         "producao": ["arroz irrigado"],
@@ -37,8 +37,8 @@ json_solos = [
     },
     {
         "nome_solo": "Gleissolos",
-        "cor": ['cinza'],
-        "textura": ['argilosa'],
+        "cor": ['cinza', "levemente amarronzado"],
+        "textura": ['argilosa', "solo argiloso"],
         "umidade": 2,
         "regiao": ['Araçatuba', 'Araraquara', 'Campinas', 'São José do Rio Preto','Ribeirão Preto','Piracicaba','Presidente Prudente','Vale do Paraíba Paulista'],
         "producao": ["arroz"],
@@ -46,8 +46,8 @@ json_solos = [
     },
     {
         "nome_solo": "Chernossolos",
-        "cor": ['escuro'],
-        "textura": ['argilosa'],
+        "cor": ['escuro',  "normalmente escuro ou preto"],
+        "textura": ['argilosa', "solo argiloso"],
         "umidade": 3,
         "regiao": ['Araçatuba', 'Araraquara', 'Assis', 'Bauru', 'Campinas', 'Itapetininga', 'Litoral Sul Paulista', 'São José do Rio Preto', 'Metropolitana de São Paulo','Ribeirão Preto','Piracicaba','Presidente Prudente','Marília','Macro Metropolitana Paulista','Vale do Paraíba Paulista'],
         "producao": ["trigo", "milho", "sorgo"],
@@ -55,8 +55,8 @@ json_solos = [
     },
     {
         "nome_solo": "Espodossolos",
-        "cor": ['escuro','cinza','amarelo','vermelho'],
-        "textura": ['arenosa'],
+        "cor": ['escuro','cinza','amarelo','vermelho',  "Normalmente escuro ou preto", "Normalmente avermelhado"],
+        "textura": ['arenosa', "possui areia grossa"],
         "umidade": 1,
         "regiao": ['Litoral Sul Paulista', 'Vale do Paraíba Paulista', 'Metropolitana de São Paulo'],
         "producao": [],

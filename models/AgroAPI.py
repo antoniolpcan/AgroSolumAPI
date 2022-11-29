@@ -29,6 +29,9 @@ class AgroAPI:
             lista_regioes.append(item_meso['nome'])
 
         result = requests.get(f'https://servicodados.ibge.gov.br/api/v1/localidades/municipios/{city.lower()}')
+        if result.content == b'[]':
+            raise HTTPException(status_code = 404, detail = "Cidade não encontrada")
+
         local_muni = json.loads(result.content)
 
         if local_muni['regiao-imediata']['regiao-intermediaria']['nome'] in lista_regioes:
@@ -44,9 +47,9 @@ class AgroAPI:
                 if self.color in solo['cor']:
                     if self.texture in solo['textura']:
                         if self.humidity == solo['umidade']:
-                            ground_list.append(solo)
+                            ground_list.append(solo['nome_solo'])
         
-        return ground_list
+        return ground_list[0]
 
     #def verify_image(self, ground_list: list) -> list:
     #    len_list = len(ground_list)
