@@ -40,7 +40,7 @@ class AgroAPI:
         else:
             raise HTTPException(status_code = 404, detail = "Solo não encontrado")
 
-    def verify_solum(self) -> list:
+    def verify_solum(self) -> str:
         ground_list = []
         for solo in json_solos:
             if self.region in solo['regiao']:

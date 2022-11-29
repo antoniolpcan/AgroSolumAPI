@@ -7,4 +7,5 @@ from models.AgroAPI import AgroAPI
 def post_form(form: GroundInfo):
     agro = AgroAPI(form)
     solos = agro.verify_solum()
+    print(solos)
     return solos

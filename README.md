@@ -18,7 +18,7 @@ uvicorn main:app --port 8500
 
 ## Requisição:
 
-#### <li> Endpoint: https://127.0.0.1:8500/api_agrosolum/post_form </li>
+#### <li> Endpoint: http://127.0.0.1:8500/api_agrosolum/post_form </li>
 
 #### <li> Modelo de requisição: </li>
     
@@ -27,8 +27,8 @@ uvicorn main:app --port 8500
     "color": "vermelho",
     "texture": "argilosa",
     "humidity": 2,
-    "city": "Pirassununga"
-    "season": ""
+    "city": "Pirassununga",
+    "season": "",
     "value": ""
 }
 ```
